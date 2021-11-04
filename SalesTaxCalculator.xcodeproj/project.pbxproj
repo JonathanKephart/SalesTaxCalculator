@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		782427092734184A0043D5A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782427082734184A0043D5A0 /* AppDelegate.swift */; };
+		7824270B2734184A0043D5A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824270A2734184A0043D5A0 /* SceneDelegate.swift */; };
+		7824270D2734184A0043D5A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824270C2734184A0043D5A0 /* ViewController.swift */; };
+		782427102734184A0043D5A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7824270E2734184A0043D5A0 /* Main.storyboard */; };
+		782427122734184B0043D5A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782427112734184B0043D5A0 /* Assets.xcassets */; };
+		782427152734184B0043D5A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782427132734184B0043D5A0 /* LaunchScreen.storyboard */; };
+		782427202734184B0043D5A0 /* SalesTaxCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824271F2734184B0043D5A0 /* SalesTaxCalculatorTests.swift */; };
+		7824272A2734184B0043D5A0 /* SalesTaxCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 782427292734184B0043D5A0 /* SalesTaxCalculatorUITests.swift */; };
+		7824272C2734184B0043D5A0 /* SalesTaxCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824272B2734184B0043D5A0 /* SalesTaxCalculatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7824271C2734184B0043D5A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 782426FD2734184A0043D5A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 782427042734184A0043D5A0;
+			remoteInfo = SalesTaxCalculator;
+		};
+		782427262734184B0043D5A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 782426FD2734184A0043D5A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 782427042734184A0043D5A0;
+			remoteInfo = SalesTaxCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		782427052734184A0043D5A0 /* SalesTaxCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalesTaxCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		782427082734184A0043D5A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7824270A2734184A0043D5A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7824270C2734184A0043D5A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7824270F2734184A0043D5A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		782427112734184B0043D5A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		782427142734184B0043D5A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		782427162734184B0043D5A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7824271B2734184B0043D5A0 /* SalesTaxCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalesTaxCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7824271F2734184B0043D5A0 /* SalesTaxCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesTaxCalculatorTests.swift; sourceTree = "<group>"; };
+		782427252734184B0043D5A0 /* SalesTaxCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalesTaxCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		782427292734184B0043D5A0 /* SalesTaxCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesTaxCalculatorUITests.swift; sourceTree = "<group>"; };
+		7824272B2734184B0043D5A0 /* SalesTaxCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesTaxCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		782427022734184A0043D5A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782427182734184B0043D5A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782427222734184B0043D5A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		782426FC2734184A0043D5A0 = {
+			isa = PBXGroup;
+			children = (
+				782427072734184A0043D5A0 /* SalesTaxCalculator */,
+				7824271E2734184B0043D5A0 /* SalesTaxCalculatorTests */,
+				782427282734184B0043D5A0 /* SalesTaxCalculatorUITests */,
+				782427062734184A0043D5A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		782427062734184A0043D5A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				782427052734184A0043D5A0 /* SalesTaxCalculator.app */,
+				7824271B2734184B0043D5A0 /* SalesTaxCalculatorTests.xctest */,
+				782427252734184B0043D5A0 /* SalesTaxCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		782427072734184A0043D5A0 /* SalesTaxCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				782427082734184A0043D5A0 /* AppDelegate.swift */,
+				7824270A2734184A0043D5A0 /* SceneDelegate.swift */,
+				7824270C2734184A0043D5A0 /* ViewController.swift */,
+				7824270E2734184A0043D5A0 /* Main.storyboard */,
+				782427112734184B0043D5A0 /* Assets.xcassets */,
+				782427132734184B0043D5A0 /* LaunchScreen.storyboard */,
+				782427162734184B0043D5A0 /* Info.plist */,
+			);
+			path = SalesTaxCalculator;
+			sourceTree = "<group>";
+		};
+		7824271E2734184B0043D5A0 /* SalesTaxCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				7824271F2734184B0043D5A0 /* SalesTaxCalculatorTests.swift */,
+			);
+			path = SalesTaxCalculatorTests;
+			sourceTree = "<group>";
+		};
+		782427282734184B0043D5A0 /* SalesTaxCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				782427292734184B0043D5A0 /* SalesTaxCalculatorUITests.swift */,
+				7824272B2734184B0043D5A0 /* SalesTaxCalculatorUITestsLaunchTests.swift */,
+			);
+			path = SalesTaxCalculatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		782427042734184A0043D5A0 /* SalesTaxCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7824272F2734184B0043D5A0 /* Build configuration list for PBXNativeTarget "SalesTaxCalculator" */;
+			buildPhases = (
+				782427012734184A0043D5A0 /* Sources */,
+				782427022734184A0043D5A0 /* Frameworks */,
+				782427032734184A0043D5A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SalesTaxCalculator;
+			productName = SalesTaxCalculator;
+			productReference = 782427052734184A0043D5A0 /* SalesTaxCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7824271A2734184B0043D5A0 /* SalesTaxCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782427322734184B0043D5A0 /* Build configuration list for PBXNativeTarget "SalesTaxCalculatorTests" */;
+			buildPhases = (
+				782427172734184B0043D5A0 /* Sources */,
+				782427182734184B0043D5A0 /* Frameworks */,
+				782427192734184B0043D5A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7824271D2734184B0043D5A0 /* PBXTargetDependency */,
+			);
+			name = SalesTaxCalculatorTests;
+			productName = SalesTaxCalculatorTests;
+			productReference = 7824271B2734184B0043D5A0 /* SalesTaxCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		782427242734184B0043D5A0 /* SalesTaxCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 782427352734184B0043D5A0 /* Build configuration list for PBXNativeTarget "SalesTaxCalculatorUITests" */;
+			buildPhases = (
+				782427212734184B0043D5A0 /* Sources */,
+				782427222734184B0043D5A0 /* Frameworks */,
+				782427232734184B0043D5A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				782427272734184B0043D5A0 /* PBXTargetDependency */,
+			);
+			name = SalesTaxCalculatorUITests;
+			productName = SalesTaxCalculatorUITests;
+			productReference = 782427252734184B0043D5A0 /* SalesTaxCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		782426FD2734184A0043D5A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					782427042734184A0043D5A0 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					7824271A2734184B0043D5A0 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 782427042734184A0043D5A0;
+					};
+					782427242734184B0043D5A0 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 782427042734184A0043D5A0;
+					};
+				};
+			};
+			buildConfigurationList = 782427002734184A0043D5A0 /* Build configuration list for PBXProject "SalesTaxCalculator" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 782426FC2734184A0043D5A0;
+			productRefGroup = 782427062734184A0043D5A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				782427042734184A0043D5A0 /* SalesTaxCalculator */,
+				7824271A2734184B0043D5A0 /* SalesTaxCalculatorTests */,
+				782427242734184B0043D5A0 /* SalesTaxCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		782427032734184A0043D5A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782427152734184B0043D5A0 /* LaunchScreen.storyboard in Resources */,
+				782427122734184B0043D5A0 /* Assets.xcassets in Resources */,
+				782427102734184A0043D5A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782427192734184B0043D5A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782427232734184B0043D5A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		782427012734184A0043D5A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7824270D2734184A0043D5A0 /* ViewController.swift in Sources */,
+				782427092734184A0043D5A0 /* AppDelegate.swift in Sources */,
+				7824270B2734184A0043D5A0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782427172734184B0043D5A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				782427202734184B0043D5A0 /* SalesTaxCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		782427212734184B0043D5A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7824272A2734184B0043D5A0 /* SalesTaxCalculatorUITests.swift in Sources */,
+				7824272C2734184B0043D5A0 /* SalesTaxCalculatorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7824271D2734184B0043D5A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 782427042734184A0043D5A0 /* SalesTaxCalculator */;
+			targetProxy = 7824271C2734184B0043D5A0 /* PBXContainerItemProxy */;
+		};
+		782427272734184B0043D5A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 782427042734184A0043D5A0 /* SalesTaxCalculator */;
+			targetProxy = 782427262734184B0043D5A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7824270E2734184A0043D5A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7824270F2734184A0043D5A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		782427132734184B0043D5A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				782427142734184B0043D5A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7824272D2734184B0043D5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7824272E2734184B0043D5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		782427302734184B0043D5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BSJ9M44Q4D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SalesTaxCalculator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JonK.SalesTaxCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		782427312734184B0043D5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BSJ9M44Q4D;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SalesTaxCalculator/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JonK.SalesTaxCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		782427332734184B0043D5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BSJ9M44Q4D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JonK.SalesTaxCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SalesTaxCalculator.app/SalesTaxCalculator";
+			};
+			name = Debug;
+		};
+		782427342734184B0043D5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BSJ9M44Q4D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JonK.SalesTaxCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SalesTaxCalculator.app/SalesTaxCalculator";
+			};
+			name = Release;
+		};
+		782427362734184B0043D5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BSJ9M44Q4D;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JonK.SalesTaxCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SalesTaxCalculator;
+			};
+			name = Debug;
+		};
+		782427372734184B0043D5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BSJ9M44Q4D;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JonK.SalesTaxCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SalesTaxCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		782427002734184A0043D5A0 /* Build configuration list for PBXProject "SalesTaxCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7824272D2734184B0043D5A0 /* Debug */,
+				7824272E2734184B0043D5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7824272F2734184B0043D5A0 /* Build configuration list for PBXNativeTarget "SalesTaxCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782427302734184B0043D5A0 /* Debug */,
+				782427312734184B0043D5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		782427322734184B0043D5A0 /* Build configuration list for PBXNativeTarget "SalesTaxCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782427332734184B0043D5A0 /* Debug */,
+				782427342734184B0043D5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		782427352734184B0043D5A0 /* Build configuration list for PBXNativeTarget "SalesTaxCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				782427362734184B0043D5A0 /* Debug */,
+				782427372734184B0043D5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 782426FD2734184A0043D5A0 /* Project object */;
+}
